@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Streets of Kovai — Prep Checklist</title>
 <style>
   :root {
@@ -219,6 +220,59 @@
   #notesInput:focus {
     outline: none;
     border-color: var(--terracotta);
+  }
+  @media (max-width: 640px) {
+    .hero {
+      padding: 18px 12px 22px 12px;
+      border-radius: 0 0 16px 16px;
+    }
+    .logo {
+      width: 76px;
+      height: 76px;
+    }
+    .brand-title {
+      font-size: 20px;
+      letter-spacing: 0.6px;
+    }
+    .brand-sub {
+      letter-spacing: 1.1px;
+    }
+    main.content {
+      padding: 12px;
+    }
+    .toolbar {
+      flex-direction: column;
+      gap: 7px;
+    }
+    button.tool {
+      width: 100%;
+      padding: 11px 10px;
+    }
+    li.item {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+      padding: 12px;
+    }
+    label.item-name {
+      font-size: 14px;
+    }
+    .toggle-group {
+      width: 100%;
+      gap: 8px;
+    }
+    .toggle-btn {
+      flex: 1;
+      min-width: 0;
+      padding: 8px 8px;
+    }
+    .notes-block {
+      padding: 12px;
+    }
+    .save-hint {
+      font-size: 12px;
+      padding: 9px 10px;
+    }
   }
 </style>
 </head>
